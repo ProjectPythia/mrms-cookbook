@@ -183,42 +183,42 @@ input[type=range].anim-slider {
 </style>
 
 <div class="animation">
-  <img id="_anim_imgf1cad21836104d3ea59e29d8d3acd09c">
+  <img id="_anim_img8205acffaafe420d8bc4d29a1464a5de">
   <div class="anim-controls">
-    <input id="_anim_sliderf1cad21836104d3ea59e29d8d3acd09c" type="range" class="anim-slider"
+    <input id="_anim_slider8205acffaafe420d8bc4d29a1464a5de" type="range" class="anim-slider"
            name="points" min="0" max="1" step="1" value="0"
-           oninput="animf1cad21836104d3ea59e29d8d3acd09c.set_frame(parseInt(this.value));">
+           oninput="anim8205acffaafe420d8bc4d29a1464a5de.set_frame(parseInt(this.value));">
     <div class="anim-buttons">
-      <button title="Decrease speed" aria-label="Decrease speed" onclick="animf1cad21836104d3ea59e29d8d3acd09c.slower()">
+      <button title="Decrease speed" aria-label="Decrease speed" onclick="anim8205acffaafe420d8bc4d29a1464a5de.slower()">
           <i class="fa fa-minus"></i></button>
-      <button title="First frame" aria-label="First frame" onclick="animf1cad21836104d3ea59e29d8d3acd09c.first_frame()">
+      <button title="First frame" aria-label="First frame" onclick="anim8205acffaafe420d8bc4d29a1464a5de.first_frame()">
         <i class="fa fa-fast-backward"></i></button>
-      <button title="Previous frame" aria-label="Previous frame" onclick="animf1cad21836104d3ea59e29d8d3acd09c.previous_frame()">
+      <button title="Previous frame" aria-label="Previous frame" onclick="anim8205acffaafe420d8bc4d29a1464a5de.previous_frame()">
           <i class="fa fa-step-backward"></i></button>
-      <button title="Play backwards" aria-label="Play backwards" onclick="animf1cad21836104d3ea59e29d8d3acd09c.reverse_animation()">
+      <button title="Play backwards" aria-label="Play backwards" onclick="anim8205acffaafe420d8bc4d29a1464a5de.reverse_animation()">
           <i class="fa fa-play fa-flip-horizontal"></i></button>
-      <button title="Pause" aria-label="Pause" onclick="animf1cad21836104d3ea59e29d8d3acd09c.pause_animation()">
+      <button title="Pause" aria-label="Pause" onclick="anim8205acffaafe420d8bc4d29a1464a5de.pause_animation()">
           <i class="fa fa-pause"></i></button>
-      <button title="Play" aria-label="Play" onclick="animf1cad21836104d3ea59e29d8d3acd09c.play_animation()">
+      <button title="Play" aria-label="Play" onclick="anim8205acffaafe420d8bc4d29a1464a5de.play_animation()">
           <i class="fa fa-play"></i></button>
-      <button title="Next frame" aria-label="Next frame" onclick="animf1cad21836104d3ea59e29d8d3acd09c.next_frame()">
+      <button title="Next frame" aria-label="Next frame" onclick="anim8205acffaafe420d8bc4d29a1464a5de.next_frame()">
           <i class="fa fa-step-forward"></i></button>
-      <button title="Last frame" aria-label="Last frame" onclick="animf1cad21836104d3ea59e29d8d3acd09c.last_frame()">
+      <button title="Last frame" aria-label="Last frame" onclick="anim8205acffaafe420d8bc4d29a1464a5de.last_frame()">
           <i class="fa fa-fast-forward"></i></button>
-      <button title="Increase speed" aria-label="Increase speed" onclick="animf1cad21836104d3ea59e29d8d3acd09c.faster()">
+      <button title="Increase speed" aria-label="Increase speed" onclick="anim8205acffaafe420d8bc4d29a1464a5de.faster()">
           <i class="fa fa-plus"></i></button>
     </div>
-    <form title="Repetition mode" aria-label="Repetition mode" action="#n" name="_anim_loop_selectf1cad21836104d3ea59e29d8d3acd09c"
+    <form title="Repetition mode" aria-label="Repetition mode" action="#n" name="_anim_loop_select8205acffaafe420d8bc4d29a1464a5de"
           class="anim-state">
-      <input type="radio" name="state" value="once" id="_anim_radio1_f1cad21836104d3ea59e29d8d3acd09c"
+      <input type="radio" name="state" value="once" id="_anim_radio1_8205acffaafe420d8bc4d29a1464a5de"
              >
-      <label for="_anim_radio1_f1cad21836104d3ea59e29d8d3acd09c">Once</label>
-      <input type="radio" name="state" value="loop" id="_anim_radio2_f1cad21836104d3ea59e29d8d3acd09c"
+      <label for="_anim_radio1_8205acffaafe420d8bc4d29a1464a5de">Once</label>
+      <input type="radio" name="state" value="loop" id="_anim_radio2_8205acffaafe420d8bc4d29a1464a5de"
              checked>
-      <label for="_anim_radio2_f1cad21836104d3ea59e29d8d3acd09c">Loop</label>
-      <input type="radio" name="state" value="reflect" id="_anim_radio3_f1cad21836104d3ea59e29d8d3acd09c"
+      <label for="_anim_radio2_8205acffaafe420d8bc4d29a1464a5de">Loop</label>
+      <input type="radio" name="state" value="reflect" id="_anim_radio3_8205acffaafe420d8bc4d29a1464a5de"
              >
-      <label for="_anim_radio3_f1cad21836104d3ea59e29d8d3acd09c">Reflect</label>
+      <label for="_anim_radio3_8205acffaafe420d8bc4d29a1464a5de">Reflect</label>
     </form>
   </div>
 </div>
@@ -228,13 +228,13 @@ input[type=range].anim-slider {
   /* Instantiate the Animation class. */
   /* The IDs given should match those used in the template above. */
   (function() {
-    var img_id = "_anim_imgf1cad21836104d3ea59e29d8d3acd09c";
-    var slider_id = "_anim_sliderf1cad21836104d3ea59e29d8d3acd09c";
-    var loop_select_id = "_anim_loop_selectf1cad21836104d3ea59e29d8d3acd09c";
+    var img_id = "_anim_img8205acffaafe420d8bc4d29a1464a5de";
+    var slider_id = "_anim_slider8205acffaafe420d8bc4d29a1464a5de";
+    var loop_select_id = "_anim_loop_select8205acffaafe420d8bc4d29a1464a5de";
     var frames = new Array(6);
     
   frames[0] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAMgCAYAAACwGEg9AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
-bGliIHZlcnNpb24zLjEwLjYsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvq6yFwwAAAAlwSFlzAAAP\
+bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAP\
 YQAAD2EBqD+naQABAABJREFUeJzsnXl8FOX9xz/PEiAZgSAbIeCBCCIqAp6JJ6iolaZVW+9adz1q\
 PRvaWqu/quBtrdhErdbWY9fa1rMejQe1CkjVxCqkHgULKh5I0CwKwi4kYZ/fHzPPM888M7NXNtnd\
 5PvmtWx2zmdn53g+z/dinHMOgiAIgiAIgiAIgiAKSqDQDSAIgiAIgiAIgiAIggQ6QRAEQRAEQRAE\
@@ -2899,7 +2899,7 @@ AAAAJkBBBwAAAADABCjoAAAAAACYAAUdAAAAAAAToKADAAAAAGACFHQAAAAAAEyAgg4AAAAAgAlQ\
 AEzg/wBsix4oK9p82wAAAABJRU5ErkJggg==\
 "
   frames[1] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAMgCAYAAACwGEg9AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
-bGliIHZlcnNpb24zLjEwLjYsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvq6yFwwAAAAlwSFlzAAAP\
+bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAP\
 YQAAD2EBqD+naQABAABJREFUeJzsnXl8VNX5/z9nSCAzrDIRAiqLIuIKuCUuFdwtv9T9W6u1zqC2\
 VdQGrbXauqBWUauWWKu1dZmxtnXfGhdqVXBNrCJ1qVhQcSVoBgVhBkIy5/fHvefcc889d7ZMMpPk\
 efuKCXfucmbmzp37Oc/zfB7GOecgCIIgCIIgCIIgCKKkBEo9AIIgCIIgCIIgCIIgSKATBEEQBEEQ\
@@ -5445,7 +5445,7 @@ AAAABqCgAwAAAABgAAo6AAAAAAAGoKADAAAAAGAACjoAAAAAAAagoAMAAAAAYIB/AcD8mhZluJ5+\
 AAAAAElFTkSuQmCC\
 "
   frames[2] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAMgCAYAAACwGEg9AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
-bGliIHZlcnNpb24zLjEwLjYsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvq6yFwwAAAAlwSFlzAAAP\
+bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAP\
 YQAAD2EBqD+naQABAABJREFUeJzsnXl8FOX9xz/PkgC7nLoRAiqIIuIJXk1QK3hbfmnVSmtrrbse\
 bZVqQ6212qp4X1VLrNXaeuxaW+96NF71Aq2aWEW8KooHngTNoiDsQkj2+f0x88w+MzuzVzbZI593\
 XvvK7hzPPDvXzuf5XkJKKUEIIYQQQgghhJCS4it1BwghhBBCCCGEEEKBTgghhBBCCCGElAUU6IQQ\
@@ -7839,7 +7839,7 @@ BJ2IiIiIiIjICjBBJyIiIiIiIrICTNCJiIiIiIiIrAATdCIiIiIiIiIrwASdiIiIiIiIyAr8HwRd\
 WSBxevqkAAAAAElFTkSuQmCC\
 "
   frames[3] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAMgCAYAAACwGEg9AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
-bGliIHZlcnNpb24zLjEwLjYsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvq6yFwwAAAAlwSFlzAAAP\
+bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAP\
 YQAAD2EBqD+naQABAABJREFUeJzsnXmcE+X9xz9PWGATuTQrVxVEUfECvLrrCXhLV8VqtVrrBo/W\
 Wu2qtVZ/9aq3Vi1Yq6X1yFptPevR9aoXaNVdq0gVKwreB4cbFIQElt08vz9mnifPTGZybXaTzX7e\
 vEKSmWeeeWYyyc7n+V5CSilBCCGEEEIIIYSQkhIo9QAIIYQQQgghhBBCgU4IIYQQQgghhJQFFOiE\
@@ -9818,7 +9818,7 @@ OhEREREREZEKYIFOREREREREpAJYoBMRERERERGpABboRERERERERCqABToRERERERGRCmCBTkRE\
 RERERKQCWKATERERERERqYD/AzA7ZBZPj+IeAAAAAElFTkSuQmCC\
 "
   frames[4] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAMgCAYAAACwGEg9AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
-bGliIHZlcnNpb24zLjEwLjYsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvq6yFwwAAAAlwSFlzAAAP\
+bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAP\
 YQAAD2EBqD+naQABAABJREFUeJzsnXecG8X9/p+Rz0XCDXTgAriAMaba1DvTbDo4R4DghEAIEiUJ\
 OPCzKSGQEExIgECA2IRAIBSJkC8lEEqOHsCm3hGKaTFg0zE+w8lgY0u2707z+2N3VrOrXbWTTu15\
 +yVLt2V2tCut5plPE1JKCUIIIYQQQgghhJQVX7k7QAghhBBCCCGEEAp0QgghhBBCCCGkIqBAJ4QQ\
@@ -11729,7 +11729,7 @@ IiIiIiIiEgEW6EREREREREQiwAKdiIiIiIiISARYoBMRERERERGJAAt0IiIiIiIiIhFggU5ERERE\
 REQkAv8H7aZ2aZWMuaEAAAAASUVORK5CYII=\
 "
   frames[5] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAMgCAYAAACwGEg9AAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90\
-bGliIHZlcnNpb24zLjEwLjYsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvq6yFwwAAAAlwSFlzAAAP\
+bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAP\
 YQAAD2EBqD+naQABAABJREFUeJzs3Xl8VNX5P/DPHZJABhA0YVVAZBEVARWa4AYqbjRVrLRWS00U\
 ta4NWutPWxfEutSvWrBWS+syY6113xqquIJrgguIG4oL1oWACco2AyGZ8/vjzrlz7p1zZ+5MJpkl\
 nzevvJLMcu+Zycxwn/s85zmGEEKAiIiIiIiIiLLKl+0BEBEREREREREDdCIiIiIiIqKcwACdiIiI\
@@ -13549,7 +13549,7 @@ JyIiIiIiIhKB/wMCC3KHUSqMOgAAAABJRU5ErkJggg==\
     /* set a timeout to make sure all the above elements are created before
        the object is initialized. */
     setTimeout(function() {
-        animf1cad21836104d3ea59e29d8d3acd09c = new Animation(frames, img_id, slider_id, 500.0,
+        anim8205acffaafe420d8bc4d29a1464a5de = new Animation(frames, img_id, slider_id, 500.0,
                                  loop_select_id);
     }, 0);
   })()
