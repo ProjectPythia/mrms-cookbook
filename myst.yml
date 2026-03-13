@@ -33,6 +33,14 @@ project:
     - file: notebooks/ch3_TXfloods.ipynb
     - file: notebooks/bnf-mrms-qpe-hourly.ipynb
     - file: notebooks/ch4_realtimeData.ipynb
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - 'https://journals.ametsoc.org/**'
+        - 'https://www.noaa.gov/**'
+        - 'https://mrms.nssl.noaa.gov/**'
+        - 'https://github.com/ARM-Development/**'
   jupyter:
       binder:
         repo: projectpythia/mrms-cookbook
