@@ -26,3 +26,4 @@ dependencies:
   - cmweather
   - geopandas
   - geoviews
+  - jupyter_bokeh
