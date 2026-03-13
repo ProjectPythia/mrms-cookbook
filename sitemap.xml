@@ -11,9 +11,9 @@
     <loc>http://localhost:3000/notebooks/ch3-txfloods</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/bnf-mrms-qpe-hourly</loc>
+    <loc>http://localhost:3000/notebooks/ch4-bnf-mrms-qpe-hourly</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebooks/ch4-realtimedata</loc>
+    <loc>http://localhost:3000/notebooks/ch5-realtimedata</loc>
   </url>
 </urlset>
