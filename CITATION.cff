@@ -21,9 +21,9 @@ authors:
     given-names: JD
     orcid: https://orcid.org/0009-0005-7424-4889
     affiliation: Metropolitan State University of Denver
-    -family-names: Collins
+  - family-names: Collins
     given-names: MaKenna
-    orchid: https://orcid.org/0009-0003-5566-3370
+    orcid: https://orcid.org/0009-0003-5566-3370
     affiliation: Jackson State University
   - family-names: Grover
     given-names: Maxwell
