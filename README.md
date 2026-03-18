@@ -4,7 +4,7 @@
 
 [![nightly-build](https://github.com/ProjectPythia/mrms-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/mrms-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/mrms-cookbook/main?labpath=notebooks)
-<!-- [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19100514.svg)](https://doi.org/10.5281/zenodo.19100514)
 
 
 This Project Pythia Cookbook covers how to access, analyze, and visualize Multi-radar, Multi-sensor (MRMS) Data.
