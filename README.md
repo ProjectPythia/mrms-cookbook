@@ -15,14 +15,12 @@ The Multi-Radar, Multi-Sensor (MRMS) System combines radar, surface, and upper-a
 
 ## Authors
 
-<a href="https://github.com/ProjectPythia/mrms-cookbook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/mrms-cookbook" />
-</a>
+[Ty Janoski](https://github.com/tyfolino), [Bella Condo](https://github.com/bmcondo), [Mya Sears](https://github.com/myasea8), [JD Heaton](https://github.com/heatonwx), [MaKenna Collins](https://github.com/makennascollins), [Maxwell Grover](https://github.com/mgrover1)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/ProjectPythia/mrms-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/mrms-cookbook" />
 </a>
 
 ## Structure
