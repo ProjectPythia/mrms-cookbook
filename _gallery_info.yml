@@ -1,6 +1,15 @@
-thumbnail: thumbnail.png
+thumbnail: thumbnails/MRMS_Ida.png
 tags:
   domains:
-    - sampledomain
+    - weather
+    - radar
+    - data access
+    - visualization
+    - AWS Cloud
+    - atmosphere
   packages:
-    - samplepackage
+    - xarray
+    - cartopy
+    - hvplot
+    - s3fs
+    - scipy
