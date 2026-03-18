@@ -17,8 +17,6 @@ authors:
     orcid: https://orcid.org/0009-0003-5870-7498
     website: https://github.com/myasea8
     affiliation: NCAR
-  - name: "MRMS Cookbook contributors" # use the 'name' field to acknowledge organizations
-    website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
   - family-names: Heaton
     given-names: JD
     orcid: https://orcid.org/0009-0005-7424-4889
@@ -27,5 +25,12 @@ authors:
     given-names: MaKenna
     orchid: https://orcid.org/0009-0003-5566-3370
     affiliation: Jackson State University
+  - family-names: Grover
+    given-names: Maxwell
+    orcid: https://orcid.org/0000-0002-0370-8974
+    website: https://github.com/mgrover1
+    affiliation: Spire Global
+  - name: "MRMS Cookbook contributors" # use the 'name' field to acknowledge organizations
+    website: "https://github.com/ProjectPythia/mrms-cookbook/graphs/contributors"
 title: "MRMS Cookbook"
 abstract: "The Multi-Radar, Multi-Sensor (MRMS) project combines radar data, surface observations, and numerical weather prediction models to create near real-time composites of radar fields and precipitation. In this cookbook, we demonstrate how to access and visualize historical and real-time MRMS data."

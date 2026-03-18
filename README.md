@@ -1,6 +1,6 @@
 # MRMS Cookbook
 
-<img src="thumbnails/mrms-thumbnail.png" alt="thumbnail" width="300"/>
+<img src="thumbnails/MRMS_Ida.png" alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/mrms-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/mrms-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/mrms-cookbook/main?labpath=notebooks)
