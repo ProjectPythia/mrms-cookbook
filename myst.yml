@@ -41,6 +41,7 @@ project:
         - 'https://www.noaa.gov/**'
         - 'https://mrms.nssl.noaa.gov/**'
         - 'https://github.com/ARM-Development/**'
+        - 'https://aws.amazon.com/**'
   jupyter:
       binder:
         repo: projectpythia/mrms-cookbook
