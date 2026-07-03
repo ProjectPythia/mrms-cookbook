@@ -13,3 +13,5 @@ tags:
     - hvplot
     - s3fs
     - scipy
+  events:
+    - Cook-off 2025
