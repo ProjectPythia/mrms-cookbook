@@ -5,6 +5,7 @@ channels:
 dependencies:
   - jupyterlab
   - mystmd
+  - nodejs=24.*
   - jupyterlab-myst
   - python=3.12
   - xarray
