@@ -15,16 +15,18 @@ dependencies:
   - s3fs
   - fsspec
   - cfgrib
+  - requests
+  - pandas
+  - scipy
   - matplotlib
   - conda
   - ipykernel
-  - conda
   - ipywidgets
   - cftime
   - hvplot
+  - holoviews
+  - panel
   - metpy
-  - siphon
   - cmweather
-  - geopandas
   - geoviews
   - jupyter_bokeh

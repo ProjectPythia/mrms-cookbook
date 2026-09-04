@@ -27,7 +27,7 @@ The Multi-Radar, Multi-Sensor (MRMS) System combines radar, surface, and upper-a
 
 - <b>Chapter 1</b> offers a brief overview of MRMS data and provides context for how the data is organized on AWS.
 - <b>Chapter 2</b> contains a case study of the [March 24–27 2023 Tornado Outbreak](https://en.wikipedia.org/wiki/Tornado_outbreak_of_March_24–27,_2023), showcasing fields relevant to severe weather prediction.
-- <b>Chapter 3</b> examines another recent severe weather event, the [July 2025 Central Texas Floods](https://en.wikipedia.org/wiki/July_2025_Central_Texas_floods), instead focusing on precipitation fields and [FLASH](https://www.nssl.noaa.gov/projects/flash) output, including comparisons to station observations.
+- <b>Chapter 3</b> examines another recent severe weather event, the [July 2025 Central Texas Floods](https://en.wikipedia.org/wiki/July_2025_Central_Texas_floods), instead focusing on precipitation fields, including comparisons to ASOS station observations.
 - <b>Chapter 4</b> compares MRMS-derived precipitation estimates at Bankhead National Forest (BNF) Field Sites.
 - <b>Chapter 5</b> offers a real-time look at MRMS data with the opportunity to select certain data fields.
 
